@@ -1,0 +1,31 @@
+---
+# tasks file for ansible-quick-look-plugins
+
+- name: Install common casks
+  homebrew_cask:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - betterzipql
+    - brushviewql
+    - epubquicklook
+    - inloop-qlplayground
+    - provisionql
+    - qlcolorcode
+    - qldds
+    - qlgradle
+    - qlimagesize
+    - qlmarkdown
+    - qlplayground
+    - qlprettypatch
+    - qlrest
+    - qlstephen
+    - qlvideo
+    - quicklook-csv
+    - quicklook-json
+    - scriptql
+    - voxql
+    - webpquicklook
+
+- name: Restart QuickLook
+  command: qlmanage -r

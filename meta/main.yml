@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Ian Copp
+  description: Install a set of Quick Look plugins for assorted file types.
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: MacOSX
+      versions:
+        - 10.12
+        - 10.11
+        - 10.10
+        - 10.9
+  galaxy_tags:
+    - system
+
+dependencies:
+  - role: icopp.homebrew-cask
+    when: ansible_os_family == "Darwin"
