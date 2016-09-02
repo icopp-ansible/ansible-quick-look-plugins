@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: Ian Copp
   description: Install a set of Quick Look plugins for assorted file types.
@@ -6,10 +7,10 @@ galaxy_info:
   platforms:
     - name: MacOSX
       versions:
-        - 10.12
-        - 10.11
-        - 10.10
-        - 10.9
+        - "10.12"
+        - "10.11"
+        - "10.10"
+        - "10.9"
   galaxy_tags:
     - system
 

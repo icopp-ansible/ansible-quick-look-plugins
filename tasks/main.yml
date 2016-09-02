@@ -1,7 +1,5 @@
 ---
-# tasks file for ansible-quick-look-plugins
-
-- name: Install common casks
+- name: Install Quick Look plugins via Homebrew Cask
   homebrew_cask:
     name: "{{ item }}"
     state: present
