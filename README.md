@@ -31,7 +31,7 @@ This adds support for:
 
 ## Dependencies
 
-* [icopp.homebrew-cask](https://github.com/icopp/ansible-homebrew-cask) (included as repository dependency)
+* [icopp.homebrew-cask](https://github.com/icopp/ansible-homebrew-cask)
 
 ## Example Playbook
 
